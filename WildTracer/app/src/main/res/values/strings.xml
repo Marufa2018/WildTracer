@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">WildTracer</string>
+
+    <string name="get_location">Get Location</string>
+    <string name="android_image">Android Image</string>
+    <string name="textview_hint">নিজের অবস্থান জানতে বোতাম চাপুন
+    </string>
+    <string name="location_permission_denied">Location permissions denied,
+        please enable the permissions to use this app.
+    </string>
+    <string name="address_text">"Address: %1$s \n Timestamp: %2$tr"</string>
+    <string name="no_location">No location available</string>
+    <string name="no_address_found">No address found</string>
+    <string name="loading">Loading…</string>
+    <string name="service_not_available">Service not available</string>
+    <string name="invalid_lat_long_used">Invalid coordinates used</string>
+    <string name="start_tracking_location">জরুরী এস এম এস</string>
+    <string name="stop_tracking_location">এস এম এস পাঠান</string>
+    <string name="choose_location">নির্বাচন করুন</string>
+    <string name="take_pic">ছবি তুলুন</string>
+    <string name="only_location">জায়গা নির্বাচন</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings in activity_main view -->
+    <string name="instructions">Downloading the data </string>
+    <string name="button_text">Search Books</string>
+    <string name="input_hint">Book Title</string>
+
+    <!-- User messages for in-process queries and error results. -->
+    <string name="no_results">"No Results Found"</string>
+    <string name="no_search_term">Please enter a search term</string>
+    <string name="no_network">Please check your network connection and try again.</string>
+    <string name="button_loc">স্থান নির্বাচন</string>
+    <string name="button_wildlife">প্রানি নির্বাচন</string>
+    <string name="button_meet">সাক্ষাৎ স্থান নির্বাচন</string>
+    <string name="textview_selhead"> স্থান, প্রানি বা সাক্ষাৎ স্থান নির্বাচন</string>
+    <string name="main_nav">প্রথম পাতা</string>
+    <string name="success_sms">এসএমএস পাঠানো হয়েছে</string>
+    <string name="show_map">মানচিত্র</string>
+    <string name="title_activity_main_map">MainMapActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="restartmess">Please restart the app</string>
+    <string name="emergency_call">হেল্পলাইন নম্বর</string>
+    <string name="download">ডাউনলোড করুন</string>
+    <string name="editWord">অতিরিক্ত তথ্য</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listgrad"
+    tools:context=".SelectOptions">
+
+    <Button
+        android:id="@+id/button_download"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="@dimen/right_margin"
+        android:text="@string/download"
+        android:textSize="16sp"
+        android:textColor = "#FFFFFF"
+        android:background="@drawable/mybutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.707"
+        app:layout_constraintStart_toEndOf="@+id/button_wildlife"
+        app:layout_constraintTop_toBottomOf="@+id/button_loc" />
+
+    <Button
+        android:id="@+id/button_loc"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="@dimen/right_margin"
+        android:text="@string/button_loc"
+        android:textSize="16sp"
+        android:textColor = "#FFFFFF"
+        android:background="@drawable/mybutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.703"
+        app:layout_constraintStart_toEndOf="@+id/button_wildlife"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_meet"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/left_margin"
+        android:layout_marginTop="4dp"
+        android:text="@string/button_meet"
+        android:textSize="16sp"
+        android:textColor = "#FFFFFF"
+        android:background="@drawable/mybutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_wildlife" />
+
+    <Button
+        android:id="@+id/button_wildlife"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginStart="@dimen/left_margin"
+        android:layout_marginTop="42dp"
+        android:text="@string/button_wildlife"
+        android:textSize="16sp"
+        android:textColor = "#FFFFFF"
+        android:background="@drawable/mybutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_sms"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/left_margin"
+        android:layout_marginEnd="@dimen/right_margin"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/mybutton"
+        android:onClick="SendSMS"
+        android:text="@string/stop_tracking_location"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:icon="@android:drawable/ic_dialog_email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_word"
+        app:layout_constraintVertical_bias="0.256" />
+
+    <TextView
+        android:id="@+id/textView_selhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/textview_selhead"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/solaimanlipi"
+        app:layout_constraintBottom_toTopOf="@+id/button_wildlife"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.234" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/solaimanlipi"
+        app:layout_constraintBottom_toTopOf="@+id/button_sms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_meet"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/edit_word"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="@dimen/left_margin"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="@dimen/right_margin"
+        android:ems="10"
+        android:hint="@string/editWord"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_meet" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
