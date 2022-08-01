@@ -17,7 +17,7 @@ public class NetworkUtils_location {
     //
     // Base endpoint URL for the Books API.
     private static final String BOOK_BASE_URL =
-            "http://139.162.46.205/api/locations";
+            "https://wildtracer.com/api/locations";
 
 
 

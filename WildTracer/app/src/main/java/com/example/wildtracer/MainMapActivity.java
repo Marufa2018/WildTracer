@@ -18,10 +18,14 @@ import androidx.core.content.ContextCompat;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
+import com.google.android.gms.maps.model.MarkerOptions;
 
 
 public class MainMapActivity extends AppCompatActivity
             implements
+        GoogleMap.OnMarkerClickListener,
         GoogleMap.OnMyLocationButtonClickListener,
         GoogleMap.OnMyLocationClickListener,
             OnMapReadyCallback,
@@ -42,6 +46,9 @@ public class MainMapActivity extends AppCompatActivity
 
         private GoogleMap map;
         private Button mMainButton;
+        private final LatLng Route1 = new LatLng(24.66417, 89.44081);
+        private final LatLng Route2 = new LatLng(24.58694, 89.58389);
+        private final LatLng Route3 = new LatLng(24.81464, 89.44611);
 
 
     @Override
@@ -76,6 +83,24 @@ public class MainMapActivity extends AppCompatActivity
             map = googleMap;
             map.setOnMyLocationButtonClickListener(this);
             map.setOnMyLocationClickListener(this);
+
+            Marker markerRoute1 = map.addMarker(new MarkerOptions()
+                    .position(Route1)
+                    .title("Route1"));
+            markerRoute1.setTag(0);
+
+            Marker markerRoute2 = map.addMarker(new MarkerOptions()
+                    .position(Route2)
+                    .title("Route2"));
+            markerRoute2.setTag(0);
+
+            Marker markerRoute3 = map.addMarker(new MarkerOptions()
+                    .position(Route3)
+                    .title("Route3"));
+            markerRoute3.setTag(0);
+
+            // Set a listener for marker click.
+            map.setOnMarkerClickListener(this);
             enableMyLocation();
         }
 
@@ -157,4 +182,8 @@ public class MainMapActivity extends AppCompatActivity
     }
 
 
+    @Override
+    public boolean onMarkerClick(@NonNull Marker marker) {
+        return false;
+    }
 }
