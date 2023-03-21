@@ -1,0 +1,40 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+$navBar: #1E2632;
+$beckground: #f7f8f9;
+$text: #343c42;
+body {
+    background-color: $beckground;
+    color: $text;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.navbar {
+    background-color: $navBar;
+    box-shadow: 0 5px 10px 0 rgba(204, 204, 204, 0.3);
+    margin-bottom: 40px;
+    a {
+        color: #fff;
+    }
+}
+
+.sub-nav {
+    background-color: #ffff;
+    box-shadow: 0 5px 10px 0 rgba(204, 204, 204, 0.3);
+    margin-bottom: 40px;
+    a {
+        color: #1E2632;
+    }
+}
+
+.card {
+    box-shadow: 0 5px 10px 0 rgba(204, 204, 204, 0.8);
+    padding: 20px 40px;
+}
