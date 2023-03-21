@@ -1,0 +1,51 @@
+animal_type,scientific_name,average_lifespan,request_time,request_udapte_time,help_center_response_time,location,route,success
+Dog,Canis Lupus Familiaris,13,2010-09-10 03:59:12,2010-09-10 04:13:59,2010-09-10 04:30:59,Dhaka,Bogra - Sariakandi Rd,yes
+Cat,Felis Catus,16,2010-09-10 04:06:22,2010-09-10 04:06:22,2010-09-10 04:40:22,Chittagong,Uposhohor Rd,yes
+Hawk,Buteo,20,2010-04-11 22:40:13,21-06-2010 12:09:28,22-06-2010 12:09:28,Khulna,Gohail Rd,no
+White-tailed Eagle,Haliaeetus Albicilla,20,21-06-2010 12:09:50,21-06-2010 12:09:50,21-06-2010 12:18:50,Bogura,Matidali - Dhorompur Rd,yes
+Fox,Vulpes Vulpes,4,21-06-2010 12:10:08,21-06-2010 12:10:08,21-06-2010 12:40:08,Sylhet,Chondon - Baisha Rd,yes
+Lizard,Lacertilia,5,21-06-2010 12:10:28,21-06-2010 12:10:28,21-06-2010 15:10:28,Dhaka,Bogra - Sariakandi Rd,no
+Tiger,Panthera Tigris,10,21-06-2010 19:03:48,21-06-2010 19:03:48,21-06-2010 19:26:48,Dhaka,Uposhohor Rd,yes
+Dog,Canis Lupus Familiaris,13,2011-09-10 03:59:12,2011-09-10 04:13:59,2011-10-10 04:13:59,Chittagong,Gohail Rd,no
+Cat,Felis Catus,16,2011-09-10 04:06:22,2011-09-10 04:06:22,2011-10-10 04:06:22,Dhaka,Matidali - Dhorompur Rd,no
+Hawk,Buteo,20,2011-04-11 22:40:13,21-06-2011 12:09:28,21-06-2011 16:09:28,Dhaka,Chondon - Baisha Rd,no
+White-tailed Eagle,Haliaeetus Albicilla,20,21-06-2011 12:09:50,21-06-2011 12:09:50,21-06-2011 12:34:50,Dhaka,Bogra - Sariakandi Rd,yes
+Fox,Vulpes Vulpes,4,21-06-2011 12:10:08,21-06-2011 12:10:08,21-06-2011 12:20:08,Dhaka,Uposhohor Rd,yes
+Lizard,Lacertilia,5,21-06-2011 12:10:28,21-06-2011 12:10:28,21-06-2011 12:40:28,Chittagong,Gohail Rd,yes
+Tiger,Panthera Tigris,10,21-06-2011 19:03:48,21-06-2011 19:03:48,21-06-2011 19:23:48,Chittagong,Matidali - Dhorompur Rd,yes
+Dog,Canis Lupus Familiaris,13,2011-09-10 03:59:12,2011-09-10 04:13:59,2011-10-10 04:13:59,Khulna,Chondon - Baisha Rd,no
+Cat,Felis Catus,16,2012-09-10 04:06:22,2012-09-10 04:06:22,2012-09-10 08:06:22,Khulna,Bogra - Sariakandi Rd,no
+Hawk,Buteo,20,2012-04-11 22:40:13,21-06-2012 12:09:28,21-06-2012 12:35:28,Chittagong,Uposhohor Rd,yes
+White-tailed Eagle,Haliaeetus Albicilla,20,21-06-2012 12:09:50,21-06-2012 12:09:50,21-06-2012 12:40:50,Chittagong,Gohail Rd,yes
+Fox,Vulpes Vulpes,4,21-06-2012 12:10:08,21-06-2012 12:10:08,21-06-2012 12:50:08,Chittagong,Matidali - Dhorompur Rd,yes
+Lizard,Lacertilia,5,21-06-2012 12:10:28,21-06-2012 12:10:28,21-06-2012 12:33:28,Khulna,Chondon - Baisha Rd,yes
+Tiger,Panthera Tigris,10,21-06-2012 19:03:48,21-06-2012 19:03:48,21-06-2012 19:14:48,Khulna,Bogra - Sariakandi Rd,yes
+Dog,Canis Lupus Familiaris,13,2012-09-10 03:59:12,2012-09-10 04:13:59,2012-09-10 07:13:59,Bogura,Uposhohor Rd,no
+Cat,Felis Catus,16,2012-09-10 04:06:22,2012-09-10 04:06:22,2012-10-10 04:06:22,Bogura,Gohail Rd,no
+Hawk,Buteo,20,2013-04-11 22:40:13,21-06-2013 12:09:28,21-06-2013 13:01:28,Bogura,Matidali - Dhorompur Rd,yes
+White-tailed Eagle,Haliaeetus Albicilla,20,21-06-2013 12:09:50,21-06-2013 12:09:50,21-06-2013 13:02:50,Khulna,Chondon - Baisha Rd,yes
+Fox,Vulpes Vulpes,4,21-06-2013 12:10:08,21-06-2013 12:10:08,21-06-2013 13:08:08,Khulna,Bogra - Sariakandi Rd,yes
+Lizard,Lacertilia,5,21-06-2013 12:10:28,21-06-2013 12:10:28,21-06-2013 12:51:28,Bogura,Uposhohor Rd,yes
+Tiger,Panthera Tigris,10,21-06-2013 19:03:48,21-06-2013 19:03:48,21-06-2013 20:13:48,Bogura,Gohail Rd,yes
+Dog,Canis Lupus Familiaris,13,2013-09-10 03:59:12,2013-09-10 04:13:59,2013-10-10 04:13:59,Sylhet,Matidali - Dhorompur Rd,no
+Cat,Felis Catus,16,2013-09-10 04:06:22,2013-09-10 04:06:22,2013-09-10 09:06:22,Sylhet,Chondon - Baisha Rd,no
+Hawk,Buteo,20,2013-04-11 22:40:13,21-06-2013 12:09:28,21-06-2013 14:50:28,Sylhet,Bogra - Sariakandi Rd,no
+White-tailed Eagle,Haliaeetus Albicilla,20,21-06-2014 12:09:50,21-06-2014 12:09:50,21-06-2014 13:30:50,Sylhet,Uposhohor Rd,yes
+Fox,Vulpes Vulpes,4,21-06-2014 12:10:08,21-06-2014 12:10:08,21-06-2014 13:12:08,Bogura,Gohail Rd,yes
+Lizard,Lacertilia,5,21-06-2015 12:10:28,21-06-2015 12:10:28,21-06-2015 12:23:28,Sylhet,Matidali - Dhorompur Rd,yes
+Tiger,Panthera Tigris,10,21-06-2015 19:03:48,21-06-2015 19:03:48,21-06-2015 20:33:48,Sylhet,Chondon - Baisha Rd,yes
+Dog,Canis Lupus Familiaris,13,2015-09-10 03:59:12,2015-09-10 04:13:59,2015-10-10 04:13:59,Dhaka,Matidali - Dhorompur Rd,no
+Cat,Felis Catus,16,2016-09-10 04:06:22,2016-09-10 04:13:59,2016-09-10 05:06:22,Chittagong,Chondon - Baisha Rd,yes
+Hawk,Buteo,20,2016-04-11 22:40:13,2016-09-10 04:13:59,21-06-2016 15:09:28,Khulna,Bogra - Sariakandi Rd,no
+White-tailed Eagle,Haliaeetus Albicilla,20,21-06-2016 12:09:50,2016-09-10 04:13:59,21-06-2016 13:19:50,Bogura,Uposhohor Rd,yes
+Fox,Vulpes Vulpes,4,21-06-2017 12:10:08,2017-09-10 04:13:59,21-06-2017 12:30:08,Sylhet,Gohail Rd,yes
+Lizard,Lacertilia,5,21-06-2017 12:10:28,2017-09-10 04:13:59,22-06-2017 12:10:28,Dhaka,Matidali - Dhorompur Rd,no
+Tiger,Panthera Tigris,10,21-06-2017 19:03:48,2017-09-10 04:13:59,21-06-2017 22:40:48,Dhaka,Chondon - Baisha Rd,no
+Dog,Canis Lupus Familiaris,13,2018-09-10 03:59:12,2018-09-10 04:13:59,2018-09-10 07:55:59,Chittagong,Bogra - Sariakandi Rd,no
+Cat,Felis Catus,16,2018-09-10 04:06:22,2018-09-10 04:13:59,2018-09-10 05:16:22,Dhaka,Matidali - Dhorompur Rd,yes
+Hawk,Buteo,20,2019-04-11 22:40:13,2019-09-10 04:13:59,21-06-2019 12:19:28,Dhaka,Chondon - Baisha Rd,yes
+White-tailed Eagle,Haliaeetus Albicilla,20,21-06-2019 12:09:50,2019-09-10 04:13:59,21-06-2019 12:29:50,Dhaka,Bogra - Sariakandi Rd,yes
+Fox,Vulpes Vulpes,4,21-06-2020 12:10:08,2020-09-10 04:13:59,21-06-2020 13:10:08,Dhaka,Uposhohor Rd,yes
+Lizard,Lacertilia,5,21-06-2021 12:10:28,2021-09-10 04:13:59,21-06-2021 13:40:28,Chittagong,Gohail Rd,yes
+Tiger,Panthera Tigris,10,21-06-2022 07:03:48,2022-09-10 04:13:59,22-06-2022 19:03:48,Chittagong,Matidali - Dhorompur Rd,no
+Dog,Canis Lupus Familiaris,13,2022-09-10 03:59:12,2022-09-10 04:13:59,2022-10-10 08:43:59,Khulna,Chondon - Baisha Rd,no
