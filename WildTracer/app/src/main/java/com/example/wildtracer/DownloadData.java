@@ -130,7 +130,7 @@ public class DownloadData extends AppCompatActivity implements LoaderManager.Loa
             // Look for results in the items array, exiting when both the
             // title and author are found or when all items have been checked.
             while (i < itemsArray.length() &&
-                    (i < 20)) {
+                    (i < 50)) {
                 // Get the current item information.
                 JSONObject book = itemsArray.getJSONObject(i);
 

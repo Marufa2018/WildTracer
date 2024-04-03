@@ -187,7 +187,7 @@ public class SelectOptions extends AppCompatActivity {
         }
         try{
             android.telephony.SmsManager smgr = SmsManager.getDefault();
-            smgr.sendTextMessage("+8801772772334","5554", message,null,null);
+            smgr.sendTextMessage("+8801716300807","5554", message,null,null);
             Intent in = new Intent(this,SuccessSMS.class);
             in.putExtra("message", message);
             startActivity(in);

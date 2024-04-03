@@ -46,9 +46,13 @@ public class MainMapActivity extends AppCompatActivity
 
         private GoogleMap map;
         private Button mMainButton;
-        private final LatLng Route1 = new LatLng(24.66417, 89.44081);
-        private final LatLng Route2 = new LatLng(24.58694, 89.58389);
-        private final LatLng Route3 = new LatLng(24.81464, 89.44611);
+        private final LatLng Route1 = new LatLng(24.30, 88.58);
+        private final LatLng Route2 = new LatLng(24.85250, 89.37287);
+        private final LatLng Route3 = new LatLng(24.89228, 89.58067);
+        private final LatLng Route4 = new LatLng(24.69040, 89.54011);
+        private final LatLng Route5 = new LatLng(24.88263, 89.44827);
+        private final LatLng Route6 = new LatLng(25.28128, 89.00720);
+        private final LatLng Route7 = new LatLng(24.34005, 89.34410);
 
 
     @Override
@@ -86,18 +90,38 @@ public class MainMapActivity extends AppCompatActivity
 
             Marker markerRoute1 = map.addMarker(new MarkerOptions()
                     .position(Route1)
-                    .title("Route1"));
+                    .title("সিংড়া বাজার, নাটোর"));
             markerRoute1.setTag(0);
 
             Marker markerRoute2 = map.addMarker(new MarkerOptions()
                     .position(Route2)
-                    .title("Route2"));
+                    .title("বড়গোলা বাজার, বগুড়া"));
             markerRoute2.setTag(0);
 
             Marker markerRoute3 = map.addMarker(new MarkerOptions()
                     .position(Route3)
-                    .title("Route3"));
+                    .title("সারিয়াকান্দি কালীতলা ঘাট, বগুড়া"));
             markerRoute3.setTag(0);
+
+            Marker markerRoute4 = map.addMarker(new MarkerOptions()
+                    .position(Route4)
+                    .title("ধুনট বাজার, বগুড়া"));
+            markerRoute4.setTag(0);
+
+            Marker markerRoute5 = map.addMarker(new MarkerOptions()
+                    .position(Route5)
+                    .title("গাবতলী বাজার, বগুড়া"));
+            markerRoute5.setTag(0);
+
+            Marker markerRoute6 = map.addMarker(new MarkerOptions()
+                    .position(Route6)
+                    .title("বাংলা হিলি সীমান্ত, জয়পুরহাট"));
+            markerRoute6.setTag(0);
+
+            Marker markerRoute7 = map.addMarker(new MarkerOptions()
+                    .position(Route7)
+                    .title("নলডাঙ্গা, নাটোর"));
+            markerRoute7.setTag(0);
 
             // Set a listener for marker click.
             map.setOnMarkerClickListener(this);

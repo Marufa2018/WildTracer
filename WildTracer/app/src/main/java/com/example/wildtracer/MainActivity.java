@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity implements
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
               //  intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                intent.setData(Uri.parse("tel:" + "+8801772772334"));
+                intent.setData(Uri.parse("tel:" + "+8801716300807"));
                 MainActivity.this.startActivity(intent);
                 finish();
             }
@@ -209,7 +209,7 @@ public class MainActivity extends AppCompatActivity implements
             mRotateAnim.end();
             try{
                 android.telephony.SmsManager smgr = SmsManager.getDefault();
-                smgr.sendTextMessage("+8801772772334","5554", message,null,null);
+                smgr.sendTextMessage("+8801716300807","5554", message,null,null);
                 Toast.makeText(MainActivity.this, R.string.success_sms, Toast.LENGTH_LONG).show();
             }
             catch (Exception e){
